@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Github, ExternalLink, Filter } from "lucide-react"
 
-// Updated project data with your actual projects
 const projectsData = [
   {
     id: 1,
@@ -55,7 +54,7 @@ const projectsData = [
     tags: ["FastAPI", "PostgreSQL", "Redis", "Celery", "React 18", "TypeScript", "TanStack Router", "Tailwind CSS"],
     category: "Backend",
     github: "https://github.com/nihalikakumari/WebHook--delivery-service",
-    demo: "https://trademark-search-application-three.vercel.app/",
+    demo: "https://webhook-frontend-e85x.onrender.com",
   },
   {
     id: 5,
@@ -125,7 +124,7 @@ export default function Projects() {
             Filter Projects
           </Button>
 
-          <div className={flex flex-wrap gap-2 md:gap-4 justify-center ${showFilters ? "block" : "hidden sm:flex"}}>
+          <div className={`flex flex-wrap gap-2 md:gap-4 justify-center ${showFilters ? "block" : "hidden sm:flex"}`}>
             {categories.map((category) => (
               <Button
                 key={category}
@@ -163,7 +162,6 @@ export default function Projects() {
                 whileHover={{ y: -5 }}
               >
                 <Card className="bg-[#111827] dark:bg-white border-none overflow-hidden h-full flex flex-col group shadow-md hover:shadow-lg transition-shadow duration-300">
-                  {/* Project Image */}
                   <div className="overflow-hidden">
                     <img
                       src={project.image || "/placeholder.svg"}
@@ -173,7 +171,6 @@ export default function Projects() {
                   </div>
 
                   <CardHeader className="flex-grow">
-                    {/* Project Title and Category */}
                     <div className="flex justify-between items-start mb-2">
                       <CardTitle className="text-lg md:text-xl text-white dark:text-[#0f172a] line-clamp-2">
                         {project.title}
@@ -186,12 +183,10 @@ export default function Projects() {
                       </Badge>
                     </div>
 
-                    {/* Short Description */}
                     <CardDescription className="text-[#D1D5DB] dark:text-[#475569] text-sm md:text-base mb-3">
                       {project.shortDescription}
                     </CardDescription>
 
-                    {/* Long Description (Expandable) */}
                     <div className="mb-4">
                       <motion.div
                         initial={false}
@@ -215,7 +210,6 @@ export default function Projects() {
                     </div>
                   </CardHeader>
 
-                  {/* Tech Stack */}
                   <CardContent>
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map((tag, i) => (
@@ -230,7 +224,6 @@ export default function Projects() {
                     </div>
                   </CardContent>
 
-                  {/* Action Buttons */}
                   <CardFooter className="flex justify-between gap-2">
                     <Button
                       variant="outline"
