@@ -15,7 +15,7 @@ const projectsData = [
     shortDescription: "Seamless hand gesture control for an AI-powered virtual mouse",
     longDescription:
       "An innovative virtual mouse powered by AI and hand gesture recognition, designed to replace traditional input devices. Utilizing OpenCV and MediaPipe for real-time hand tracking, it enables actions like clicks and cursor movement through intuitive gestures and features like screenshot. Advanced smoothing techniques ensure precision and a seamless user experience.",
-    image: "/placeholder.svg?height=300&width=500&query=virtual mouse hand gesture control AI",
+    image: "public/Virtualmouse.png",
     tags: ["HTML", "CSS", "Python", "OpenCV", "Figma", "MediaPipe"],
     category: "AI/ML",
     github: "https://github.com/nihalikakumari/Virtual-mouse",
@@ -27,7 +27,7 @@ const projectsData = [
     shortDescription: "BreastAware: Early Detection Platform",
     longDescription:
       "This project is a self-assessment test app for early detection of cancer. It uses the Breast Cancer Dataset and Scikit-learn's Gaussian Naive Bayes algorithm to classify cancer cells. The app stores disease details locally and leverages machine learning to provide accurate predictions, aiding in early diagnosis.",
-    image: "/placeholder.svg?height=300&width=500&query=cancer detection medical app interface",
+    image: "public\OncoScan.png",
     tags: ["HTML", "Python", "Scikit-learn", "CSS", "JavaScript", "Figma"],
     category: "AI/ML",
     github: "#",
@@ -39,7 +39,7 @@ const projectsData = [
     shortDescription: "Delivering authentic Indian flavors with ease and style",
     longDescription:
       "Spice Delight is a responsive Indian food delivery app built with Next.js and TypeScript. It features smooth animations, category filtering, detailed dish info, and a persistent shopping cart. With light/dark theme support and a streamlined checkout process, the app delivers a polished and accessible user experience across all devices using Tailwind CSS and Radix UI components.",
-    image: "/placeholder.svg?height=300&width=500&query=Indian food delivery app interface",
+    image: "public\SpiceDelight.png",
     tags: ["Next.js 14", "TypeScript", "Tailwind CSS", "Radix UI", "React Context API"],
     category: "Full Stack",
     github: "https://github.com/nihalikakumari/SpiceDelight",
@@ -125,7 +125,7 @@ export default function Projects() {
             Filter Projects
           </Button>
 
-          <div className={`flex flex-wrap gap-2 md:gap-4 justify-center ${showFilters ? "block" : "hidden sm:flex"}`}>
+          <div className={flex flex-wrap gap-2 md:gap-4 justify-center ${showFilters ? "block" : "hidden sm:flex"}}>
             {categories.map((category) => (
               <Button
                 key={category}
