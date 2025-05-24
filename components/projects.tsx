@@ -29,7 +29,7 @@ const projectsData = [
     image: "/OncoScan.png",
     tags: ["HTML", "Python", "Scikit-learn", "CSS", "JavaScript", "Figma"],
     category: "AI/ML",
-    github: "#",
+    github: "https://github.com/nihalikakumari/OncoScan-",
     demo: "https://cancercellclassifier.streamlit.app/",
   },
   {
