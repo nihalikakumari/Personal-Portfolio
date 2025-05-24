@@ -10,7 +10,7 @@ export default function Hero() {
   const [mounted, setMounted] = useState(false)
   const [currentTitle, setCurrentTitle] = useState(0)
 
-  const titles = ["MERN Stack Developer", "Programmer", "Full Stack Developer", "Frontend Developer"]
+  const titles = ["MERN Stack Developer", "Programmer", "Full Stack Developer", "Frontend Developer", "Cloud Tech Enthusiast"]
 
   useEffect(() => {
     setMounted(true)
