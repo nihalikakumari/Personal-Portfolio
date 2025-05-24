@@ -15,7 +15,7 @@ const projectsData = [
     shortDescription: "Seamless hand gesture control for an AI-powered virtual mouse",
     longDescription:
       "An innovative virtual mouse powered by AI and hand gesture recognition, designed to replace traditional input devices. Utilizing OpenCV and MediaPipe for real-time hand tracking, it enables actions like clicks and cursor movement through intuitive gestures and features like screenshot. Advanced smoothing techniques ensure precision and a seamless user experience.",
-    image: "public/Virtualmouse.png",
+    image: "/Virtualmouse.png",
     tags: ["HTML", "CSS", "Python", "OpenCV", "Figma", "MediaPipe"],
     category: "AI/ML",
     github: "https://github.com/nihalikakumari/Virtual-mouse",
@@ -27,7 +27,7 @@ const projectsData = [
     shortDescription: "BreastAware: Early Detection Platform",
     longDescription:
       "This project is a self-assessment test app for early detection of cancer. It uses the Breast Cancer Dataset and Scikit-learn's Gaussian Naive Bayes algorithm to classify cancer cells. The app stores disease details locally and leverages machine learning to provide accurate predictions, aiding in early diagnosis.",
-    image: "public\OncoScan.png",
+    image: "/OncoScan.png",
     tags: ["HTML", "Python", "Scikit-learn", "CSS", "JavaScript", "Figma"],
     category: "AI/ML",
     github: "#",
@@ -39,7 +39,7 @@ const projectsData = [
     shortDescription: "Delivering authentic Indian flavors with ease and style",
     longDescription:
       "Spice Delight is a responsive Indian food delivery app built with Next.js and TypeScript. It features smooth animations, category filtering, detailed dish info, and a persistent shopping cart. With light/dark theme support and a streamlined checkout process, the app delivers a polished and accessible user experience across all devices using Tailwind CSS and Radix UI components.",
-    image: "public\SpiceDelight.png",
+    image: "/SpiceDelight.png",
     tags: ["Next.js 14", "TypeScript", "Tailwind CSS", "Radix UI", "React Context API"],
     category: "Full Stack",
     github: "https://github.com/nihalikakumari/SpiceDelight",
@@ -51,7 +51,7 @@ const projectsData = [
     shortDescription: "A robust webhook delivery service built with FastAPI and React",
     longDescription:
       "A reliable webhook delivery service with subscription management, async delivery using Celery, retry with backoff, logging, caching via Redis, and status APIs. Built with FastAPI, PostgreSQL, Docker, and deployed on Render. Features reliable delivery, retries, and comprehensive logging for enterprise-grade webhook management.",
-    image: "/placeholder.svg?height=300&width=500&query=webhook delivery service dashboard",
+    image: "/WebHook.png",
     tags: ["FastAPI", "PostgreSQL", "Redis", "Celery", "React 18", "TypeScript", "TanStack Router", "Tailwind CSS"],
     category: "Backend",
     github: "https://github.com/nihalikakumari/WebHook--delivery-service",
@@ -63,7 +63,7 @@ const projectsData = [
     shortDescription: "A Next.js application that replicates the Trademarkia search functionality",
     longDescription:
       "Trademarkia Search is a Next.js app for searching and filtering U.S. trademark records with real-time results and a modern UI. The application allows users to search and filter trademark records across the United States with an intuitive interface and comprehensive search capabilities.",
-    image: "/placeholder.svg?height=300&width=500&query=trademark search application interface",
+    image: "/TradeMarkia.png",
     tags: ["Next.js 13", "TypeScript", "Tailwind CSS", "shadcn/ui", "React Hooks", "SWR", "Lucide React"],
     category: "Frontend",
     github: "https://github.com/nihalikakumari/TradeMarkia",
