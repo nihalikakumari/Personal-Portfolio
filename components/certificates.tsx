@@ -26,7 +26,7 @@ const certificatesData = [
     description:
       "Professional certification for MongoDB database administration, covering deployment, scaling, optimization, and database management best practices.",
     image: "https://technologypoint.in/wp-content/uploads/2021/06/MongoDB-sm-logo.gif",
-    url: "https://drive.google.com/file/d/1EJKZ0xSbLm49qnxNS6SDCjW0mg8y_EJe/view?usp=drive_link",
+    url: "https://drive.google.com/file/d/1EJKZ0xSbLm49qnxNS6SDCjW0mg8y_EJe/view?usp=sharing",
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const certificatesData = [
     description:
       "Comprehensive introduction to Artificial Intelligence and Machine Learning concepts, algorithms, and practical applications in modern technology.",
     image: "https://th.bing.com/th/id/OIP.LTItlvOlICR9yy1MvWpC0QAAAA?cb=iwc2&rs=1&pid=ImgDetMain",
-    url: "https://drive.google.com/file/d/1b1o32tn8EKGmz8xIYKpHaMWGsZzg21Lc/view?usp=drive_link",
+    url: "https://drive.google.com/file/d/1b1o32tn8EKGmz8xIYKpHaMWGsZzg21Lc/view?usp=sharing",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const certificatesData = [
     description:
       "Essential Python programming skills covering syntax, data structures, object-oriented programming, and practical application development.",
     image: "https://th.bing.com/th/id/OIP.LTItlvOlICR9yy1MvWpC0QAAAA?cb=iwc2&rs=1&pid=ImgDetMain",
-    url: "https://drive.google.com/file/d/1hszOjADyVycLdLlqev6gWuvoGf9fcH0M/view?usp=drive_link",
+    url: "v",
   },
   {
     id: 6,
@@ -70,7 +70,7 @@ const certificatesData = [
     description:
       "Introduction to Simulink for modeling and simulating dynamic systems, covering block diagrams, simulation, and analysis techniques.",
     image: "https://th.bing.com/th/id/OIP.tWFNEU2_ZTCIQW97tH0DoAHaFb?cb=iwc2&rs=1&pid=ImgDetMain",
-    url: "https://drive.google.com/file/d/1hszOjADyVycLdLlqev6gWuvoGf9fcH0M/view?usp=drive_link",
+    url: "#",
   },
   {
     id: 7,
