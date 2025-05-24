@@ -75,7 +75,7 @@ const projectsData = [
     shortDescription: "An intelligent AI-powered chatbot with modern web interface",
     longDescription:
       "A sophisticated AI chatbot built with modern web technologies, featuring natural language processing capabilities, responsive design, and intuitive user interactions. The chatbot provides intelligent responses and maintains conversation context for enhanced user experience.",
-    image: "/placeholder.svg?height=300&width=500&query=AI chatbot interface conversation",
+    image: "/ChatBot.png",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "Frontend",
     github: "https://github.com/nihalikakumari/ai-chatbot",
