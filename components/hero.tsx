@@ -79,7 +79,7 @@ export default function Hero() {
               className="bg-gradient-to-r from-[#3EADCF] to-[#57D9FF] hover:from-[#57D9FF] hover:to-[#3EADCF] text-white px-6 sm:px-8 py-3 sm:py-6 rounded-md text-base sm:text-lg"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1dgm-RkJe2ZOGHxJnZa6IDkdkRWCHkE1X/view?usp=drive_link",
+                  "https://drive.google.com/file/d/1FikmuXAHbTn5gMWPQHktwU19uJnUON7E/view?usp=sharing",
                   "_blank",
                 )
               }
