@@ -185,7 +185,7 @@ export default function About() {
                   whileTap={{ scale: 0.95 }}
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1dgm-RkJe2ZOGHxJnZa6IDkdkRWCHkE1X/view?usp=drive_link",
+                      "https://drive.google.com/file/d/1FikmuXAHbTn5gMWPQHktwU19uJnUON7E/view?usp=sharing",
                       "_blank",
                     )
                   }
